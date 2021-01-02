@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "622964244767",
+    "project_id": "loginandroiduom",
+    "storage_bucket": "loginandroiduom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622964244767:android:15b948d1625cd41f32b02a",
+        "android_client_info": {
+          "package_name": "gr.uom.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622964244767-evu08l2nk6fvb7lc58jqi329609lmob0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gr.uom.loginapp",
+            "certificate_hash": "01ffe88497e6cdd84b4e64532b230920fafb8bab"
+          }
+        },
+        {
+          "client_id": "622964244767-afhrnns8tg84dvhu1pqevr7s4b6crf6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpByeKPVJJ4LFrkZX4wINV0JOmpyzxKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622964244767-afhrnns8tg84dvhu1pqevr7s4b6crf6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
