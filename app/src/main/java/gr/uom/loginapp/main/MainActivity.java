@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
-    public static final String TAG = "MainActivity";
+    public static final String TAG = "TEO";
 
 
     @Override
@@ -30,28 +30,23 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseUser currentUser = mAuth.getCurrentUser();
 
-        if(currentUser == null) {
+        if (currentUser == null) {
             Log.e(TAG, "User is not logged in!");
 
             Intent i = new Intent(this, LoginActivity.class);
             startActivity(i);
-        }
-        else {
+        } else {
             Intent intent = getIntent();
-            if (intent != null) {
-
-                String username = intent.getStringExtra("username");
-
-                if (username != null) {
-
-                    TextView textView = findViewById(R.id.userText);
-
-                    String text = "Logged username = " + username;
-
-                    textView.setText(text);
-
-                }
+            String username;
+            if (intent.getExtras() == null) {
+                username = currentUser.getEmail();
+            } else {
+                username = intent.getStringExtra("username");
             }
+
+            TextView textView = findViewById(R.id.userText);
+            String text = "Logged username = " + username;
+            textView.setText(text);
         }
     }
 }

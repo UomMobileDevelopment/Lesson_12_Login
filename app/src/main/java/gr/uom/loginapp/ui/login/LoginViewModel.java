@@ -22,7 +22,7 @@ public class LoginViewModel extends ViewModel {
     private MutableLiveData<LoginFormState> loginFormState = new MutableLiveData<>();
     private MutableLiveData<LoginResult> loginResult = new MutableLiveData<>();
 
-    public static final String TAG = "LoginViewModel";
+    public static final String TAG = "TEO";
 
     private FirebaseAuth mAuth;
 
