@@ -6,4 +6,5 @@ Useful resources:
 
 - [Add Firebase to your Android project](https://firebase.google.com/docs/android/setup)
 - [Get Started with Firebase Authentication on Android](https://firebase.google.com/docs/auth/android/start)
+- [Firebase Console](https://console.firebase.google.com/u/0/)
  
